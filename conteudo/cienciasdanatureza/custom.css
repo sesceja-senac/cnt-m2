@@ -418,7 +418,7 @@ p{
 }
 
 #parallax-3 {
-  background-image: url('objetos/parallax/eletricidade2.jpg');
+  background-image: url('../../assets/objetos/parallax/eolico2.jpg');
 }
 
 #parallax-4 {
@@ -535,8 +535,15 @@ p{
   padding-top: 5%;
 }
 
-
-
+.bloco6{
+  background: url('../../assets/objetos/bg1.png') repeat;
+  margin-top: -115px;
+}
+.bloco6 .container{
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: unset;
+}
 
 
 
