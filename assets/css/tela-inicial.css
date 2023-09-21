@@ -217,11 +217,6 @@ h3 {
 
 }
 
-#tela-inicial-mobile{
-    background: url('../../assets/objetos/tela-inicial/mob_bg.png') no-repeat;
-    background-size: 100%;
-    z-index: 99999999999999999999;
-}
 
 .titulomob{
     position: absolute;
@@ -352,7 +347,30 @@ h3 {
         margin-top: -60px;
         margin-bottom: -40px;
     }
-    
+
+    .logo {
+        bottom: 3%;}
+
+    #helice-1 {
+        top: 17%;
+    }
+
+    #helice-2 {
+        top: 23.5%;
+    }
+    #helice-3 {
+        top: 16.5%;
+    }
+    .iniciar1 {
+        bottom: 36%;
+        right: 13%;}
+    .subtitulo {
+        top:16%;
+    }
+    .logo {
+        bottom: 14%;
+    }
+
 }
 
 @media screen and (max-width: 1450px) { 
@@ -416,26 +434,6 @@ h3 {
     #chao {
         bottom: 3%;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
@@ -496,10 +494,49 @@ h3 {
 
     .titulo {
         top: 12%;}
-
-
+    #chao {
+        bottom: 0;
+    }
 
 }
+
+@media screen and (max-width: 1370px) {
+    #chao {
+        bottom: -20px;
+    }
+    #usina {
+        margin-top: 17%;
+    }
+    #eletrica {
+        z-index: 7;
+        top: 26%;
+    }
+    #cidade {
+        margin-top: 13%;
+    }
+    #fundo {
+        margin-top: 11%;
+    }
+    #postes {
+        margin-top: 15%;
+    }
+    #helice-1 {
+        top: 35%;
+    }
+    #helice-2 {
+        top: 39.5%;
+    }
+    #helice-3 {
+        top: 35.5%;
+    }
+    .subtitulo {
+        top: 26%;
+    }
+
+}
+
+
+
 
 @media screen and (max-width: 1025px) {
 
@@ -523,11 +560,10 @@ h3 {
 @media screen and (max-width: 820px) {
 
 .telainicial {display: none;}
+
 }
 
 @media screen and (max-width: 480px) {
-
-    .telainicial {display: none;}
 
     .modal-intro {
         width: 100%;
@@ -539,4 +575,8 @@ h3 {
     .footer {
         width: 100%;
     }
+
+
+
+    
 }
