@@ -217,7 +217,10 @@ h3 {
 
 }
 
-
+#tela-inicial-mobile{
+    background: url('../../assets/objetos/tela-inicial/mob_bg.png') no-repeat;
+    background-size: 100%;
+}
 
 
 
@@ -371,11 +374,18 @@ h3 {
     }
 }
 
+@media only screen and (min-width: 821px) {
+  #tela-inicial-mobile {display: none;}  
+}
+
 @media only screen and (max-width: 820px) {
+#tela-inicial {display: none;}
 
 }
 
 @media only screen and (max-width: 480px) {
+
+    #tela-inicial {display: none;}
 
     .modal-intro {
         width: 100%;
