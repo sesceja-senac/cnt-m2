@@ -422,7 +422,7 @@ p{
 }
 
 #parallax-4 {
-  background-image: url('objetos/parallax/eolico.jpg');
+  background-image: url('../../assets/objetos/parallax/condutores.jpg');
 }
 
 #parallax-5 {
@@ -544,18 +544,180 @@ p{
   padding-top: 50px;
   padding-bottom: unset;
 }
+.bloco7{
+  background: url('../../assets/objetos/bg3_1.png') no-repeat;
+}
+.bloco8{
+  background-color: #004f53;
+}
+.bloco8 .container{
+  background-color: #004f53;
+}
+.bloco9{
+  background-color: #d8800c;
+}
+.bloco9 .container{
+  background-color: #d8800c;
+}
+.bloco9 .container p{
+  color: #ffff;
+}
+.bloco9 .container li{
+  color: #ffff;
+}
+.bloco10{
+  background: url('../../assets/objetos/bg3_1.png') no-repeat;
+}
 .equacao1{
   display: block;
   margin: auto;
 }
+.obj-calculadora {
+  width: 655px;
+  border: 3px solid #004f53;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  box-shadow: 2px 2px 3px #333;
+  padding-left: 230px;
+  margin-left: 115px;
+}
 
+.obj-calculadora div {
+  margin-bottom: 5px;
+}
 
+.obj-calculadora label {
+  width: 170px;
+}
 
+#resultado {
+  margin-top: 30px;
+}
 
+#texto-resultado {
+  margin-top: 15px;
+  text-decoration: underline;
+}
+.img-painel{
+  position: absolute;
+}
+.branco{
+  background-color: #ffff;
+}
 
+#resultado{
+  background: url('../../assets/objetos/bt_resultado.png') no-repeat;
+  width: 181px;
+  height: 76px;
+}
+#resultado:hover {
+  background: url('../../assets/objetos/bt_resultado_hv.png') no-repeat;
+}
+.divi-laranja{
+  position: relative;
+  top:-5px;
+}
+.divi-verde{
+  bottom: -5px;
+  position: relative;
+}
+table {
+  margin: 30px auto;
+}
 
+.obj-lamp {
+  height: 430px;
+  background-image: url('../../assets/objetos/layout_EJA_ilustra_lampada.png');
+  position: relative;
+  background-position: center;
+}
 
+.obj-lamp button {
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;    
+  background-color: transparent;
+}
 
+#b-verde {    
+  top: 70px;
+  height: 50px;    
+  width: 150px;
+ 
+}
+
+#b-amarela {
+  height: 50px;
+  width: 200px;
+  top: 135px;    
+}
+
+#b-vermelha-1 {
+  top: 200px;    
+  width: 160px;
+}
+
+#b-vermelha-2 {
+  top: 270px;
+  width: 120px;
+}
+
+.obj-lamp p {
+  position: absolute;
+  
+  border-radius: 5px;
+  font-weight: 600;
+  color: white;
+  width: 0;
+  overflow: hidden;
+  transition-duration: 1s;
+}
+
+.obj-lamp p.active {
+  padding: 5px;
+  transition-duration: 1s;
+}
+
+.obj-lamp .verde {
+  background-color: #15a7b4;
+  left: 55%;
+  top: 73px;
+  height: 55px;
+  text-align: left;
+  padding: unset !important;
+  
+}
+
+.obj-lamp .amarela {
+  background-color: #eedd3c;
+  top: 130px;
+  right: 56%;
+  height: 65px;
+  
+}
+
+.obj-lamp .vermelha {
+  background-color: #ea5169;
+  top: 196px;
+  height: 65px;
+  left: 56%;
+  
+}
+
+.obj-lamp .vermelha-2 {
+  background-color: #e62629;
+  top: 263px;
+  right: 56%;
+  
+  height: 58px;
+}
 
 
 
@@ -644,6 +806,7 @@ p{
   h2{top: 0px;}
 }
 
+
 @media only screen and (max-width: 820px){
 .titulo{margin-left: unset;}
 .bloco3 {
@@ -652,9 +815,25 @@ p{
 }
 .divisoria {
   margin-top: -18px;
+  position: relative;
 }
+.obj-calculadora {
+  width: 613px;
+  padding-left: 46%;}
 
+.img-painel {margin-top: 9%;}
 
+.obj-lamp {
+  display: none;
+}
+.lamp {
+  width: 100%;
+  height: 300px;
+  background-image: url('../../assets/objetos/layout_EJA_ilustra_lampada.png');
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 20px;
+}
 }
 
 
@@ -667,30 +846,30 @@ p{
 
 }
 
-@media only screen and(max-width: 650px){
-.hq-row {
-    flex-direction: column;
-}
-.row-reverse {
-    flex-direction: column-reverse;
-}
-.hq-row div {
-    width: 100%;
-}
-.hq-img img{
-    display: block;
-    margin: 2px auto;
-}
-.hq-text {
-    padding: 10px;
-    margin: 5px;
-}
-
-}
+@media only screen and (max-width: 650px) {
+  .hq-row {
+      flex-direction: column;
+  }
+  .row-reverse {
+      flex-direction: column-reverse;
+  }
+  .hq-row div {
+      width: 100%;
+  }
+  .hq-img img{
+      display: block;
+      margin: 2px auto;
+  }
+  .hq-text {
+      padding: 10px;
+      margin: 5px;
+  }
+  
+  }
 @media only screen and (max-width: 480px){
   
   .modal-content{margin-top: 150px;}
-
+  .img-painel{display: none;}
 
 
 .hq-row {
@@ -729,9 +908,7 @@ p{
   color: #ffff;
   padding-top: 50px;
 }
-.divisoria{
-  display: none;
-}
+
 .bloco5 .container .row{
   flex-direction: column;
 }
@@ -744,11 +921,12 @@ p{
   display: block;
   margin: auto;
 }
+.obj-calculadora {
+  width: 352px;
+  padding-left: 25px;
+  margin-left: unset;}
 
 }
-
-
-
 
 
 

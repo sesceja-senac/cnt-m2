@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="../../assets/print/print.css">
     <link rel="stylesheet" href="../../assets/css/all.min.css">
     <link rel="stylesheet" href="custom.css">
-    <link rel="stylesheet" href="../../assets/js/geral.js">
 
 
 </head>
@@ -499,28 +498,252 @@
                             O conhecimento desses dados possibilita que o consumo elétrico dos equipamentos seja
                             previsto. A concessionária de energia, empresa que fornece energia na sua região, instala
                             equipamentos no seu padrão de entrada. Esse equipamento mede a potência consumida por um
-                            determinado tempo, chamado de <strong>kWh</strong>, <strong>quilowatt-hora</strong>. Verifique um cálculo de consumo a seguir.
+                            determinado tempo, chamado de <strong>kWh</strong>, <strong>quilowatt-hora</strong>.
+                            Verifique um cálculo de consumo a seguir.
                         </p>
                         <p class="no-print d-block d-sm-none"><strong>Clique</strong> na imagem para ampliá-la. </p>
-                        <img src="../../assets/objetos/equação1.png" class="img-fluid d-none d-sm-block print equacao1"
+                        <img src="../../assets/objetos/equacao1.png" class="img-fluid d-none d-sm-block print equacao1"
                             style="margin-left: auto; margin-right: auto; display: block;"
                             alt="Fórmula de consumo de energia. A potência consumida é igual a potência do aparelho, multiplicado pelo tempo em horas de uso por dia, multiplicado pelos dias de uso sobre/dividido por mil. ">
 
-                        <a href="../../assets/objetos/equação1.png" target="_blank" class="no-print">
-                            <img src="../../assets/objetos/equação1.png" class="img-fluid no-print d-block d-sm-none equacao1"
+                        <a href="../../assets/objetos/equacao1.png" target="_blank" class="no-print">
+                            <img src="../../assets/objetos/equacao1.png"
+                                class="img-fluid no-print d-block d-sm-none equacao1"
                                 style="margin-left: auto; margin-right: auto; display: block;"
                                 alt="Fórmula de consumo de energia. A potência consumida é igual a potência do aparelho, multiplicado pelo tempo em horas de uso por dia, multiplicado pelos dias de uso sobre/dividido por mil. ">
                         </a>
-                      
-                        <p>Exemplo:</p>  
+
+                        <p>Exemplo:</p>
                         <p>Imagine que uma lâmpada tenha a seguinte descrição em seu corpo: </p>
+                        <table class="sesc">
+                            <tr>
+                                <td>Potência </td>
+                                <td>15 W </td>
+                            </tr>
+                            <tr>
+                                <td>Fluxo luminoso </td>
+                                <td>1500 Im </td>
+                            </tr>
+                            <tr>
+                                <td>Tensão </td>
+                                <td> 100 – 250 V </td>
+                            </tr>
+                            <tr>
+                                <td>Frequência</td>
+                                <td>50/60 Hz </td>
+                            </tr>
+                        </table>
+                        <figcaption class="d-print-none text-center">
+                            Tabela 1 – Descrição dos dados de uma lâmpada <br>
+                            Fonte: Sesc EJA EAD (2022)
+                        </figcaption>
+                    </div>
+                </div>
 
+                <img src="../../assets/objetos/div1_1.png" class="divi-verde img-fluid">
+                <div class="bloco8">
+                    <div class="container">
+                        <p class="text-white">
+                            Agora, suponha que a lâmpada foi instalada na sala de estar e fica ligada diariamente por,
+                            pelo
+                            menos, oito horas. Com essas informações, é possível calcular seu consumo.
+                        </p>
+                        <p class="text-white">Utilize a calculadora para solucionar o exemplo.</p>
+                        <img src="../../assets/objetos/img_painel.png" class="img-fluid img-painel">
+                        <div class="obj-calculadora d-print-none branco">
+                            <h3 class="mb-3">Cálculo do consumo elétrico</h3>
+                            <div>
+                                <label for="potencia">Potência:</label>
+                                <input id="i-potencia" name="potencia" type="text">
+                            </div>
+                            <div>
+                                <label for="horas">Horas diárias de uso:</label>
+                                <input id="i-horas" name="horas" type="text">
+                            </div>
+                            <div>
+                                <label for="dias">Dias de uso:</label>
+                                <input id="i-dias" name="dias" type="text">
+                            </div>
+                            <button class="btn" id="resultado"></button>
+                            <p id="texto-resultado">Clique para calcular o consumo mensal</p>
+                        </div>
 
+                        <div class="caixa branco">
+                            <p>Resolução do exemplo: </p>
+                            <p class="no-print d-block d-sm-none"><strong>Clique</strong> na imagem para ampliá-la. </p>
+                            <img src="../../assets/objetos/equacao2.png"
+                                class="img-fluid d-none d-sm-block print equacao1"
+                                style="margin-left: auto; margin-right: auto; display: block;"
+                                alt="Cálculo com a resolução do exemplo de consumo de uma lâmpada. A potência consumida é igual a 15, multiplicado por 8, multiplicado por 30, dividido por mil, que é igual a três, vírgula, seis quilowatt hora.  ">
 
+                            <a href="../../assets/objetos/equacao2.png" target="_blank" class="no-print">
+                                <img src="../../assets/objetos/equacao2.png"
+                                    class="img-fluid no-print d-block d-sm-none equacao1"
+                                    style="margin-left: auto; margin-right: auto; display: block;"
+                                    alt="Cálculo com a resolução do exemplo de consumo de uma lâmpada. A potência consumida é igual a 15, multiplicado por 8, multiplicado por 30, dividido por mil, que é igual a três, vírgula, seis quilowatt hora.  ">
+                            </a>
+                            <p>A lâmpada consome 3,6 kWh por mês. </p>
+                        </div>
+                        <div class=" caixa1 icone saiba-mais">
+                            <p>
+                                O cálculo até aqui conseguiu medir a potência consumida individualmente de cada aparelho
+                                em sua residência. Ao somar todos os consumos, é obtido o montante total que, por sua
+                                vez, deve ser cobrado em reais (R$). Em cada região do país, existe uma empresa
+                                diferente, que fornece a energia em sua unidade consumidora. Em geral, elas têm dois
+                                valores nas contas para cada quilowatt-hora consumido.
+                            </p>
+                            <table class="sesc">
+                                <tr>
+                                    <th>Unidades com prefixo </th>
+                                    <th>Equivalência em watts </th>
+                                </tr>
+                                <tr>
+                                    <td>1 kW = 1 Quilowatt </td>
+                                    <td>1.000 watts </td>
+                                </tr>
+                                <tr>
+                                    <td>1 MW - 1 Megawatt </td>
+                                    <td>1.000.000 watts </td>
+                                </tr>
+                                <tr>
+                                    <td>1GW = 1 Gigawatt </td>
+                                    <td>1.000.000.000 watts </td>
+                                </tr>
+                            </table>
+                            <figcaption class="d-print-none text-center text-white">
+                                Tabela 2 – Potência elétrica <br>
+                                Fonte: Sesc EJA EAD (2022)
+                            </figcaption>
+                        </div>
+                    </div>
+                </div>
+                <div class="parallax" id="parallax-4">
+                    <div class="opacidade"></div>
+                </div>
 
+                <div class="bloco9">
+                    <div class="container">
+                        <p>
+                            O cálculo até aqui conseguiu medir a potência consumida individualmente de cada aparelho em
+                            sua residência. Ao somar todos os consumos, é obtido o montante total que, por sua vez, deve
+                            ser cobrado em reais (R$). Em cada região do país, existe uma empresa diferente, que fornece
+                            a energia em sua unidade consumidora. Em geral, elas têm dois valores nas contas para cada
+                            quilowatt-hora consumido.
+                        </p>
+                        <ul>
+                            <li>
+                                <strong>Tarifa de Energia (TE)</strong> - A TE cobra o consumo real da sua residência.
+                            </li>
+                            <li>
+                                <strong> Tarifa de Uso do Sistema de Distribuição (TUSD)</strong> - A TUSD fatura o uso
+                                dos equipamentos
+                                de distribuição que levam a energia até sua casa. Também é faturado sobre o consumo
+                                residencial.
+                            </li>
+                        </ul>
+                        <p>
+                            Nesse momento, a concessionária de energia realiza a leitura do equipamento que mediu o
+                            consumo de energia elétrica. Essa medida é multiplicada pelo valor do kWh do TE e do TUSD.
+                            Por fim, a soma dos dois produtos fornece o montante da fatura a ser paga, como demonstra a
+                            imagem a seguir:
+                        </p>
+                        <p class="no-print d-block d-sm-none"><strong>Clique</strong> na imagem para ampliá-la. </p>
+                        <img src="../../assets/objetos/figura-4.png" class="img-fluid d-none d-sm-block print"
+                            style="margin-left: auto; margin-right: auto; display: block;"
+                            alt="A imagem mostra um exemplo de uma conta de energia elétrica da empresa Neoenergia Pernambuco. Há os campos “dados do cliente, endereço e classificação”, além da data de vencimento de 30 de dezembro de 2019, o valor de R$ 235,08 e os dados de consumo de energia.  ">
 
+                        <a href="../../assets/objetos/figura-4.png" target="_blank" class="no-print">
+                            <img src="../../assets/objetos/figura-4.png" class="img-fluid no-print d-block d-sm-none"
+                                style="margin-left: auto; margin-right: auto; display: block;"
+                                alt="A imagem mostra um exemplo de uma conta de energia elétrica da empresa Neoenergia Pernambuco. Há os campos “dados do cliente, endereço e classificação”, além da data de vencimento de 30 de dezembro de 2019, o valor de R$ 235,08 e os dados de consumo de energia. ">
+                        </a>
+                        <p class="legenda text-center">Figura 4 – Conta de energia elétrica <br>
+                            Fonte: Neoenergia Pernambuco ([s.d.])
+                        </p>
+                        <p>
+                            Segundo a conta de luz demonstrada na figura, o consumo dessa residência foi de 286 kWh.
+                            Esse número foi multiplicado pelo TE, cujo custo é de R$ 0,34189370, totalizando R$ 97,78. O
+                            consumo também foi multiplicado pelo TUSD, cujo custo é de R$ 0,48009528, totalizando R$
+                            137,30. A soma dos dois valores é o montante total da fatura, nesse caso, R$ 235,08.
+                        </p>
 
+                    </div>
+                </div>
+                <img src="../../assets/objetos/div2_1.png" class="divi-laranja img-fluid">
 
+                <div class="bloco10">
+                    <div class="container">
+                        <div class="caixa1 icone saiba-mais">
+                            <p>
+                                Algumas empresas aglomeram as tarifas ou acrescentam outras cobranças, como iluminação
+                                pública e perdas no sistema. Os desvios de energia, também conhecidos como “gatos” na
+                                cultura popular, acabam sendo pagos por outras pessoas na categoria de perdas de
+                                energia. Essas irregularidades são um risco para a segurança das residências, pois são
+                                ligações ilegais, feitas sem segurança, correndo o risco de danificar equipamentos ou
+                                até causar um incêndio.
+                            </p>
+                        </div>
+                        <p>
+                            As tarifas podem variar de acordo com a bandeira de geração de energia. Conforme as
+                            condições de geração de energia elétrica no país, a bandeira pode ser verde, amarela e
+                            vermelha.
+                        </p>
+                        <p class="d-none d-sm-none d-md-none d-lg-block">Passe o mouse ou toque para acessar o conteúdo.
+                        </p>
+
+                        <div class="obj-lamp d-none d-lg-block d-xl-block d-xxl-block">
+                            <button id="b-verde"></button>
+                            <button id="b-amarela"></button>
+                            <button id="b-vermelha-1"></button>
+                            <button id="b-vermelha-2"></button>
+                            <p class="verde">Condições favoráveis de geração de energia, sendo assim, não há cobrança.
+                            </p>
+                            <p class="amarela">Condições menos favoráveis de geração de energia, sendo cobrados RS 2,92
+                                a cada 100 kWh. </p>
+                            <p class="vermelha">Condições desfavoráveis, sendo cobrados R$ 6,23 a cada 100 KWh.</p>
+                            <p class="vermelha-2">Condições muito desfavoráveis, sendo cobrados R$ 9,33 a cada 100 kWh.
+                            </p>
+                        </div>
+
+                        <div class="descricao-mobile d-lg-none d-xl-none d-xxl-none">
+                            <div class="lamp"></div>
+                            <ul>
+                                <li><b>Bandeira Verde </b> - Condições favoráveis de geração de energia, sendo assim,
+                                    não
+                                    há cobrança</li>
+
+                                <li><b>Bandeira Amarela </b>- Condições menos favoráveis de geração de energia, sendo
+                                    cobrados RS 2,92 a cada 100 kWh.</li>
+
+                                <li><b>Bandeira Vermelha </b>- Condições não favoráveis, com dois patamares:
+                                    <br><b>Bandeira Vermelha 1</b>: condições desfavoráveis, sendo cobrados R$ 6,23 a
+                                    cada 100 KWh.
+                                    <br> <b>Bandeira Vermelha 2</b>: condições muito desfavoráveis, sendo cobrados R$
+                                    9,33 a cada 100 kWh.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="caixa1 icone saiba-mais">
+                            <p>
+                                Pesquise, na conta de energia de sua residência, como é efetuada a cobrança na sua
+                                região. Compare com os conceitos vistos até aqui. Pesquise as notícias sobre aumentos
+                                nas contas de energia. Essa dica de pesquisa não é avaliativa.
+                            </p>
+                        </div>
+                        <p>
+                            Você viu até aqui o funcionamento da energia em sua residência. Mas como ocorre a geração de
+                            energia elétrica no Brasil? É o que será visto em seguida.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="pagina">
+                <div class="bloco11">
+                    <div class="container">
+                        <h3>O que é energia e como ela é gerada </h3>
+                        <h4>Afinal de contas, o que é energia?</h4>
 
 
 
@@ -542,6 +765,16 @@
                 </div>
 
 
+
+
+
+
+
+
+
+
+
+            </div>
 
 
 
@@ -600,7 +833,9 @@
 
     <script src="../../assets/js/audio-player.js"></script>
     <script src="../../assets/interativos/esquema_bru/esquema-bru.js"></script>
+    <script src="../../assets/script.js"></script>
     <script src="../../assets/js/geral.js"></script>
+
 
     <script>
         var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))

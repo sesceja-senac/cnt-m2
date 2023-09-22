@@ -242,13 +242,13 @@ footer li.active a {
 }
 
 .caixa{
-    border-style: solid;
-    border-width: 2px;
+    border: 3px solid #004f53;
     /* -moz-border-image: url(../img/border_pattern.png) 24 27 25 26 repeat;
     -webkit-border-image: url(../img/border_pattern.png) 24 27 25 26 repeat;
     -o-border-image: url(../img/border_pattern.png) 24 27 25 26 repeat;
     border-image: url(../img/border_pattern.png) 24 27 25 26 fill repeat; */
     padding: 30px;
+    border-radius: 10px;
 }
 
 .caixa.icone{
