@@ -141,7 +141,7 @@ h3 {
     position: absolute;
     z-index: 10;
     left: 43.2%;
-    top: 13.5%;
+    top: 14.5%;
 }
 
 
@@ -202,7 +202,7 @@ h3 {
 
 .iniciar1{
     bottom: 36%;
-    right: 16%;
+    right: 13%;
     width: 326px;
     height: 171px;
     position: absolute;
@@ -340,7 +340,7 @@ h3 {
 /*-------------- /Modal vídeo intro --------------*/
 
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1930px) {
 
     .div-conteudo{
         transform: scale(0.8);
@@ -348,6 +348,11 @@ h3 {
         margin-bottom: -40px;
     }
 
+
+
+
+
+    
 }
 
 @media screen and (max-width: 1440px) { 
@@ -359,7 +364,7 @@ h3 {
     }
    
     #tela-inicial{
-        transform: scale(0.729167);
+        transform: scale(0.75);
     }
     
 }
@@ -375,7 +380,21 @@ h3 {
     #tela-inicial{
         transform: scale(0.729167);
     }
-   
+    #helice-2 {
+        top: 22.5%;
+    }
+    #helice-1 {
+        top: 16%;
+    }
+    #helice-3 {
+        top: 16.5%;
+    }
+    .subtitulo {
+        top: 154px;
+        z-index: 5;
+    }
+    .logo {
+        bottom: 156px;}
 
 }
 
@@ -383,11 +402,23 @@ h3 {
 #tela-inicial{
     transform: scale(0.729167);
 }
-
+#helice-1 {
+    top: 11%;
 }
-
-
-
+#helice-2 {
+    top: 16.5%;
+}
+#helice-3 {
+    top: 10.5%;
+}
+.logo {
+    bottom: 116px;
+    right: 76px;
+}
+.titulo {top:-13px;}
+.subtitulo {
+    top: 90px;}
+}
 
 @media screen and (max-width: 1025px) {
 
@@ -406,16 +437,17 @@ h3 {
 }
 
 @media screen and (min-width: 825px) {
-.telamobile{display: none;}
+    #tela-inicial-mobile{display: none;}
 }
 
 @media screen and (max-width: 820px) {
+    #tela-inicial{display: none;}
     #bg {
         display: none;
     }
     
     #tela-inicial-mobile {
-        background-image: url('objetos/tela\%20inicial/telainicial-mobile-bg.png');
+        background-image: url('../objetos/tela-inicial/mob_bg.png');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: bottom;
@@ -424,22 +456,6 @@ h3 {
         height: 100vh;
     }
 
-    #tela-inicial-mobile button {
-        background-image: unset;
-        background-color: white;
-        width: 70%;
-        margin: 10px auto;
-        border-radius: 50px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: left bottom;
-        border: 4px solid #15a7b4;
-        box-shadow: 2px 2px 3px #333;
-        font-weight: 600;
-        color: #333;
-        font-size: 20px;
-        min-height: 60px;
-    }
     #tela-inicial-mobile .titulo-mobile {
         margin: 40px 5px 10px 5px;
         background-color: rgba(105, 105, 105, .4);
@@ -503,6 +519,15 @@ h3 {
         width: 160px;
         height: 211px;
     }
+    .imgVideo {
+        margin-left: 10%;
+        margin-top: 105%;
+    }
+    .logo {
+        bottom: 4%;
+        right: 3%;
+    }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -519,6 +544,7 @@ h3 {
         margin: 5px;
         width: 180px;
     }
+    
 }
 
 @media screen and (max-width: 650px) {
@@ -558,6 +584,14 @@ h3 {
     .card-row {
         flex-wrap: wrap;
     }
+    .modal-intro {
+        width: 100%;
+        padding: 15px;
+        background-image: unset;
+        background-color: #00838D;
+        margin: 15px;
+    }
+    
 }
 
 @media screen and (max-width: 420px) {
@@ -611,7 +645,23 @@ h3 {
     .infografico {
         width: 100%;
     }
+    .modal-intro {
+        width: 100%;
+        padding: 15px;
+        background-image: unset;
+        background-color: #00838D;
+        margin: 15px;
+    }
+    .imgVideo {
+        margin-left: 0%;
+        margin-top: 130%;
+    }
+    
+}
+@media screen and (max-width: 380px) {
+.imgVideo {
+    margin-left: 0%;
+    margin-top: 169%;
 }
 
-
-
+}
