@@ -7,13 +7,19 @@
   src: url(../../assets/font/Poppins/Poppins-Bold.ttf);
 }
 
+@font-face{
+  font-family: Baloo-bold;
+  src: url(../../assets/font/Baloo/Baloo2-Bold.ttf);
+}
+
+
 h2 {
   text-transform: uppercase;
   color: #004f53;
   padding-bottom: 10px;
   font-size: 22px;
   display: inline-block;
-  font-family: "Libre Franklin Semibold" !important;
+  font-family: " Baloo-bold" !important;
   position: relative;
   top: 20px;
 }
