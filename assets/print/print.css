@@ -46,7 +46,17 @@ padding-left: 11.4px;
 padding-right: 11.4px;
 }
 
-
+.matriz-eletrica{
+  max-width: 100% !important;
+}
+.boiler{
+  max-width: 100% !important;
+}
+.atividade-row {
+  display: flex !important;
+  justify-content: center !important;
+}
+.consumo-acumulado{ max-width: 100% !important;}
 .grupo-imprimir button.bto-ajuda span.fa.fa-comment {
   font-size: 25px;
 }
@@ -59,6 +69,9 @@ padding-right: 11.4px;
 .legenda p{
   text-align: center;
   font-size: 10px;
+}
+table {
+  margin: 30px auto;
 }
 
 .pdfobs {

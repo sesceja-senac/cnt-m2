@@ -56,7 +56,7 @@
   .imgVegetais{
     max-width: 60% !important;
   }
-    
+  .bt-tooltip{color:#000 !important;}
   .pagina bdo	{
     unicode-bidi: bidi-override;	
   }
@@ -67,7 +67,10 @@
     margin-left: 40px;
     margin-right: 40px;	
   }
-    
+  .matriz-eletrica{
+    max-width: 100% !important;
+  }
+  .consumo-acumulado{ max-width: 100% !important;}
   .pagina caption	{
   display: table-caption;
   text-align: center;
@@ -417,7 +420,7 @@
 
 /* Estilos de acordo com o template + ou - */
 .img-fluid{
-  max-width: 100%;
+  max-width: 100% !important;
 }
 .caixa{
   display: block;
@@ -828,7 +831,13 @@ iframe, iframe.youtube-pl{
 .clique{
    display: none;
 }
-
+.boiler{
+  max-width: 100% !important;
+}
+.atividade-row {
+  display: flex !important;
+  justify-content: center !important;
+}
 
 /*modais no leitor*/
 .modal{
@@ -863,5 +872,8 @@ table th, table td {
   }
 .no-print, .nao-imprimir, .modal.fade.no-print {
   display: none !important;
+}
+table {
+  margin: 30px auto;
 }
 
