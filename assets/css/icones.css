@@ -66,10 +66,10 @@
     .icone.refletir::before{ margin-left: 40px;}
     .icone.importante::before{ margin-left: 40px;}
     .icone.atencao::before{ margin-left: 40px;}
-    .icone.saiba-mais::before{ margin-left: 40px;}
+    .icone.saiba-mais::before{ margin-left: 20px;}
     .icone.pergunta::before{ margin-left: 40px;}
     .icone.praticar::before{ margin-left: 40px;}
-    .icone.pesquisar::before{ margin-left: 10px;}
+    .icone.pesquisar::before{ margin-left: 24px;}
     .caixa p{padding-top: 60px;}
 
 }
