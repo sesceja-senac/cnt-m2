@@ -18,6 +18,7 @@ h2 {
   top: 20px;
 }
 
+
 .dropdown button{
   background: url("../../assets/img/ico-transcricao_alt.png") no-repeat;
   background-color:#00838D;
@@ -431,8 +432,14 @@ p{
 }
 .divisoria{
   margin-top: -20px;
+  position: relative;
+  margin-bottom: -5px;
 }
-
+.divisoria-abaixo{
+  margin-top: -20px;
+  position: relative;
+  margin-bottom: -5px;
+}
 .bloco4 p{
   color: #ffff;
 }
@@ -1306,7 +1313,10 @@ iframe {
   .bloco5{
     background-size: 105%;
   }
-
+  .bloco3 {
+    background: url(../../assets/objetos/bg2.png) no-repeat;
+    background-size: 136%;
+}
 
 }
 
@@ -1361,7 +1371,7 @@ iframe {
 .titulo{margin-left: unset;}
 .bloco3 {
   background: url(../../assets/objetos/bg2.png) no-repeat;
-  background-size: 218%;
+  background-size: 233%;
 }
 .divisoria {
   margin-top: -18px;
@@ -1450,8 +1460,9 @@ iframe {
     padding: 10px;
     margin: 5px;
 }
-.bloco1, .blocoX, .bloco2, .bloco3, .bloco5{
+.bloco1, .blocoX, .bloco2, .bloco3, .bloco5, .bloco6, .bloco7, .bloco8, .bloco9, .bloco10{
   background: unset;
+  background-image: linear-gradient(#05192e, #009ba3);
 }
 .titulo{align-items: center;
   margin-left: -18px;
@@ -1463,6 +1474,13 @@ iframe {
 }
 
 #parallax-1{
+  display: none;
+}
+#parallax-3{
+  display: none;
+}
+
+#parallax-4{
   display: none;
 }
 .caixa1 p {
@@ -1514,8 +1532,12 @@ margin-right: unset;}
   display: block;
   margin: auto;
 }
-
-
+.divisoria {margin-bottom: -20px;}
+.divisoria-abaixo{
+  margin-top: -20px;
+  position: relative;
+  margin-bottom:unset;
+}
 
 
 
