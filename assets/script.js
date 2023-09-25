@@ -131,12 +131,12 @@ $('.obj-luz').click(()=>{
     if($('.obj-luz').hasClass('ativo')){
         $('.obj-luz').removeClass('ativo')
         $('.container').addClass('apagado')
-        $('.conteudo').addClass('apagado')
+        $('.bloco17').addClass('apagado')
         $('body').addClass('apagado')
     } else {
         $('.obj-luz').addClass('ativo')
         $('.container').removeClass('apagado')
-        $('.conteudo').removeClass('apagado')
+        $('.bloco17').removeClass('apagado')
         $('body').removeClass('apagado')
     }
     
