@@ -1225,11 +1225,11 @@ iframe {
   height: 333px;
   display: block;
   margin: 15px auto;
-  background-image: url('objetos/imagens/layout_EJA_lampada_off.png');
+  background-image: url('../../assets/objetos/layout_EJA_lampada_off.png');
 }
 
 .obj-luz.ativo {
-  background-image: url('objetos/imagens/layout_EJA_lampada_on.png');
+  background-image: url('../../assets/objetos/layout_EJA_lampada_on.png');
 }
 
 .obj-luz:hover {
