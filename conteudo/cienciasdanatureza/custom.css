@@ -1220,17 +1220,6 @@ iframe {
   transform: rotateY(180deg);
 }
 
-.obj-luz {
-  width: 192px;
-  height: 333px;
-  display: block;
-  margin: 15px auto;
-  background-image: url('../../assets/objetos/layout_EJA_lampada_off.png');
-}
-
-.obj-luz.ativo {
-  background-image: url('../../assets/objetos/layout_EJA_lampada_on.png');
-}
 
 .obj-luz:hover {
   cursor: pointer;
