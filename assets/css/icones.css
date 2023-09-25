@@ -41,6 +41,11 @@
 .icone.nota::before{
     background-image: url(../img/icone_nota2.png);
 }
+.icone.pesquisar::before{
+    background-image: url(../img/ico_pesquisar.png);
+    width: 109px;
+    height: 102px;
+}
 
 @media only screen and (max-width: 991px){
     .icone.importante::before {
@@ -64,7 +69,7 @@
     .icone.saiba-mais::before{ margin-left: 40px;}
     .icone.pergunta::before{ margin-left: 40px;}
     .icone.praticar::before{ margin-left: 40px;}
-
+    .icone.pesquisar::before{ margin-left: 10px;}
     .caixa p{padding-top: 60px;}
 
 }
