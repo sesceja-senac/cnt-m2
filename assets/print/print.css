@@ -401,7 +401,7 @@ p{
   overflow: unset;
 }
 
-
+.only-print.inline{display: inline !important;}
 .quebrar-depois, .break-after, .pagina {
   page-break-after: always;
 }

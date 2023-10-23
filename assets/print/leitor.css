@@ -49,7 +49,7 @@
   .pagina aside{
   display: block;	
   }
-    
+  .only-print.inline{display: inline !important;}
   .pagina b{
   font-weight: bold;	
   }
