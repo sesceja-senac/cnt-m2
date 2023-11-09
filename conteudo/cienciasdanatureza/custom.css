@@ -23,7 +23,8 @@ h2 {
   padding-bottom: 10px;
   font-size: 22px;
   display: inline-block;
-  font-family: " Baloo-bold" !important;
+  /* font-family: " Baloo-bold" !important; */
+  margin-bottom: 30px;
   position: relative;
   top: 20px;
 }
