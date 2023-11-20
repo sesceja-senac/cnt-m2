@@ -299,9 +299,11 @@ p {
 }
 
 .tooltip-link {
-  text-decoration: underline;
-  text-decoration-color: blue;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 2px dashed;
 }
+
 
 .referencias p {
   word-wrap: break-word;
@@ -1346,6 +1348,10 @@ iframe {
   word-wrap: break-word;
 }
 
+footer li.active a{
+  border: #fff solid 2px;
+}
+
 @media only screen and (max-width: 1450px) {
   .bloco5 {
     background-size: 105%;
@@ -1431,8 +1437,12 @@ iframe {
 }
 
 @media only screen and (max-width: 820px) {
+  header.sesc {
+    height: 102px;
+  }
   .titulo {
     max-width: 250px;
+    margin-top: -50px;
   }
   #titulo1 {
     padding-top: 0px !important;
@@ -1480,9 +1490,22 @@ iframe {
     margin-top: -53px;
   }
 
+  .bloco16, .bloco17, .bloco18{
+    background: unset;
+  }
   .bloco18 {
     margin-top: -99px;
   }
+
+  .tooltip-link {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 2px dashed;
+  }
+  .tooltip-link:focus{
+    color: #fff;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -1574,6 +1597,10 @@ iframe {
 }
 
 @media only screen and (max-width: 480px) {
+
+  .bt-print{
+    margin-right: -40px;
+  }
   header.sesc {
     background-position: center center;
     background-size: 180% 55%;
@@ -1626,10 +1653,14 @@ iframe {
     background: unset;
     background-image: linear-gradient(#05192e, #009ba3);
   }
+  .bloco16, .bloco17, .bloco18{
+    background: unset;
+  }
   .titulo {
     align-items: center;
     margin-left: -18px;
     margin-top: -73px;
+    display: none;
   }
 
   #parallax-2 {
@@ -1701,6 +1732,12 @@ iframe {
     margin-left: 20px;
     margin-right: unset;
   }
+
+  .bloco15{
+    padding-bottom: 140px;
+    background-image: none;
+    background-color: #068080;
+  }
   .bloco17 .container .row {
     flex-direction: column;
   }
@@ -1739,5 +1776,19 @@ iframe {
   .bloco18 {
     margin-top: -115px;
     margin-bottom: -130px;
+  }
+
+  table{
+    min-width: unset;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .dropdown button{
+    position: absolute;
+    top: 0px;
   }
 }
